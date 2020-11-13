@@ -23,3 +23,8 @@ Is CN=raju g, OU=unknown, O=unknown, L=hyderabad, ST=telangana, C=in correct?
         for: CN=raju g, OU=unknown, O=unknown, L=hyderabad, ST=telangana, C=in
 Enter key password for <mykey>
         (RETURN if same as keystore password): rajuthegreat
+
+
+        =================================build app------------------------------
+        tns run android [--key-store-path E:\2020doc\rect\native\chitts-app\my-angular-app\my-angular-app/chits-demo.keystore --key-store-password rajuthegreat --key-store-alias my-key-alias --key-store-alias-password rajuthegreat] [--release] [--justlaunch] [--env.*]] [--aab]/
+
