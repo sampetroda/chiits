@@ -1,0 +1,25 @@
+E:\2020doc\rect\native\chitts-app\my-angular-app\my-angular-app/chits-demo.keystore
+
+keytool -genkeypair -v -keystore E:\2020doc\rect\native\chitts-app\my-angular-app\my-angular-app/chits-demo.keystore
+ -alias chits-demo-alias -keyalg RSA -keysize 2048 -validity 10000
+
+ password: rajuthegreat
+What is your first and last name?
+  [Unknown]:  raju g
+What is the name of your organizational unit?
+  [Unknown]:  unknown
+What is the name of your organization?
+  [Unknown]:  unknown
+What is the name of your City or Locality?
+  [Unknown]:  hyderabad
+What is the name of your State or Province?
+  [Unknown]:  telangana
+What is the two-letter country code for this unit?
+  [Unknown]:  in
+Is CN=raju g, OU=unknown, O=unknown, L=hyderabad, ST=telangana, C=in correct?
+  [no]:  Y
+
+  Generating 2,048 bit DSA key pair and self-signed certificate (SHA256withDSA) with a validity of 90 days
+        for: CN=raju g, OU=unknown, O=unknown, L=hyderabad, ST=telangana, C=in
+Enter key password for <mykey>
+        (RETURN if same as keystore password): rajuthegreat
