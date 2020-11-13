@@ -1,8 +1,4 @@
-E:\2020doc\rect\native\chitts-app\my-angular-app\my-angular-app/chits-demo.keystore
-
-keytool -genkeypair -v -keystore E:\2020doc\rect\native\chitts-app\my-angular-app\my-angular-app/chits-demo.keystore
- -alias chits-demo-alias -keyalg RSA -keysize 2048 -validity 10000
-
+keytool -genkey -v -keystore E:\2020doc\rect\native\myownapps\chits\chiits\rajuchits.keystore -alias rchits -keyalg RSA -keysize 2048 -validity 10000
  password: rajuthegreat
 What is your first and last name?
   [Unknown]:  raju g
@@ -26,5 +22,5 @@ Enter key password for <mykey>
 
 
         =================================build app------------------------------
-        tns run android [--key-store-path E:\2020doc\rect\native\chitts-app\my-angular-app\my-angular-app/chits-demo.keystore --key-store-password rajuthegreat --key-store-alias my-key-alias --key-store-alias-password rajuthegreat] [--release] [--justlaunch] [--env.*]] [--aab]/
+        tns run android --key-store-path E:\2020doc\rect\native\myownapps\chits\chiits\rajuchits.keystore --key-store-password rajuthegreat --key-store-alias rchits --key-store-alias-password rajuthegreat --release --justlaunch --env.* --aab
 
