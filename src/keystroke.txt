@@ -3,7 +3,7 @@ keytool -genkey -v -keystore E:\2020doc\rect\native\myownapps\chits\chiits\rajuc
 What is your first and last name?
   [Unknown]:  raju g
 What is the name of your organizational unit?
-  [Unknown]:  unknown
+  [Unknown]:  unknown 
 What is the name of your organization?
   [Unknown]:  unknown
 What is the name of your City or Locality?
